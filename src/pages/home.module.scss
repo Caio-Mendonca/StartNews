@@ -1,0 +1,43 @@
+.contentContainer{
+    max-width: 1120x;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: calc(100vh - 10rem);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero{
+    max-width: 600px;
+
+    > span{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    h1{
+        font-size: 4.0rem;
+        line-height: 4.0rem;
+        font-weight: 900;
+    }
+}
+
+.footerStyle{
+    display: flex;
+    justify-content: center;
+    height: 4.5rem;
+    line-height: 2.5rem;
+    align-items: flex-end;
+
+    >img{
+        max-width: 80px;
+        max-height: 40px;
+       
+    }
+    >h1{
+        font-size: 1.5rem;
+        line-height: 2.5rem; 
+        margin-right:5px ;
+    }
+}
