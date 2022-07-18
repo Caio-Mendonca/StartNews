@@ -19,11 +19,11 @@ export default function Home() {
             Olá, Bem-Vindo(a)
           </span>
             <h1>
-              Os melhores conteúdos<br/> 
-              sobre <span>PROGRAMAÇÃO</span>
+              Os melhores conteúdos sobre<br/> 
+              <span>PROGRAMAÇÃO</span>
             </h1>
         </section>
-        <img src='/images/SVGapresentacao.png' alt='imagem de foguete com logo da empresa'/>
+        <img src='/images/startgif.gif' alt='imagem de foguete com logo da empresa'/>
       </main>
       <footer className={styles.footerStyle}>
         <h1>Powerd By</h1>
