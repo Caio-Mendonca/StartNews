@@ -6,7 +6,6 @@ export default function Home() {
     <>      
       <Head>
         <title>Start Home</title>
-        <meta name='descrption' content='Start Criação e Desenvolvimento'/>
       </Head>
       <main className={styles.contentContainer}>
         <section className={styles.hero}>
