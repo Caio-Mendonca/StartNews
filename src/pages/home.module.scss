@@ -3,7 +3,6 @@
     margin: 0 auto;
     padding: 0 2rem;
     height: calc(100vh - 10rem);
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -41,3 +40,8 @@
         margin-right:5px ;
     }
 }
+@media (max-width: 720px){
+    .image{
+      display: none;
+    }
+  }

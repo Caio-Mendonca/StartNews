@@ -31,3 +31,8 @@
     height: 20px; 
     margin-left: 1rem;
 }
+@media (max-width: 600px){
+    .userName{
+        display: none;
+    }  
+}

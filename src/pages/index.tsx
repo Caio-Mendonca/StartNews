@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { DiscordButton } from '../components/DiscordButton'
 import styles from './home.module.scss'
 export default function Home() {
   return (
@@ -22,8 +23,10 @@ export default function Home() {
               Os melhores conteúdos sobre<br/> 
               <span>PROGRAMAÇÃO</span>
             </h1>
+            <DiscordButton/>
+
         </section>
-        <img src='/images/startgif.gif' alt='imagem de foguete com logo da empresa'/>
+        <img className={styles.image}src='/images/startgif.gif' alt='imagem de foguete com logo da empresa'/>
       </main>
       <footer className={styles.footerStyle}>
         <h1>Powerd By</h1>

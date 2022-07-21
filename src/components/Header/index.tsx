@@ -6,6 +6,7 @@ export function Header(){
         <header className={styles.headerContainer}>
             <div className={styles.headerContent}>
                 <img 
+                className={styles.imageLogo}
                 src="/images/STARTlogo.png" 
                 alt="Logo start criacao e desenvolvimento"
                 />

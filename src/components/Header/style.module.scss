@@ -54,3 +54,8 @@
         margin-left: auto;
     }
 }
+@media (max-width: 600px){
+    .imageLogo{
+        display: none;
+    }  
+}
