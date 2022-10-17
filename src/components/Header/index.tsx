@@ -15,7 +15,7 @@ export function Header(){
                     <a>Posts</a>
                 </nav>
 
-                <SigninButton/>
+                {/* <SigninButton/> */}
             </div>
         </header>
     )
